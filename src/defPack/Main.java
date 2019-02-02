@@ -6,6 +6,6 @@ package defPack;
 public class Main {
     public static void main(String[] args)
     {
-        System.out.println("hello from simulator");
+        System.out.println("hello from simulator again");
     }
 }
