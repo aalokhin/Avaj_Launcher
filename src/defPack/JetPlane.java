@@ -3,7 +3,7 @@ package defPack;
 /**
  * Created by aalokhin on 2/2/19.
  */
-public class JetPlane extends Aircraft
+public class JetPlane extends Aircraft implements Flyable
 {
     private WeatherTower weatherTower;
 
