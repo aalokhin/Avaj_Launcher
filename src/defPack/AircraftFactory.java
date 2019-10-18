@@ -10,12 +10,11 @@ public class AircraftFactory {
     {
         Coordinates coordinates = new Coordinates(longitude, latitude, height);
 
-        String whatType = type.toLowerCase();
 
 
-        Flyable Aircraft = whatType.equals("baloon") ? new Baloon(name, coordinates) : (whatType.equals("helicopter")
-                ? new Helicopter(name, coordinates) : (whatType.equals("jetplane") ? new JetPlane(name, coordinates) : null));
+        Flyable Aircraft = type.equals("baloon") ? new Baloon(name, coordinates) : (type.equals("helicopter") ? new Helicopter(name, coordinates) : (type.equals("jetplane") ? new JetPlane(name, coordinates) : null));
 
+      //  System.out.println(Aircraft.name);
         return Aircraft;
     }
 }

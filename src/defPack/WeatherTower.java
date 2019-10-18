@@ -5,13 +5,23 @@ package defPack;
  */
 public class WeatherTower extends Tower
 {
-    public String getWeather(Coordinates coordinates){
-        return "hey i am string";
+    private WeatherProvider provider;
+
+//    public WeatherTower(provider)
+//    {
+//        this.provider = provider;
+//
+//    }
+
+    public String getWeather(Coordinates coordinates)
+    {
+        WeatherProvider weatherGetter = provider.getProvider();
+        return (weatherGetter.getCurrentWeather(coordinates));
 
     }
     void changeWeather()
     {
-
+        super.conditionsChanged();
     }
 
 }

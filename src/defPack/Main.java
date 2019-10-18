@@ -1,13 +1,17 @@
 package defPack;
 import java.io.*;
+import java.nio.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
 
-import java.io.FileNotFoundException;
 /**
  * Created by aalokhin on 2/2/19.
  */
 public class Main {
     public static void main(String[] args)
-            throws FileNotFoundException
+            throws IOException
     {
 
         if(args.length < 1)
@@ -16,28 +20,24 @@ public class Main {
             System.exit(1);
             return ;
         }
-
-        File Scenario = new File("simulation.txt");
-
-// ***************************************************        reading file *******************
+// *************************************************** reading file *******************
 
         String input = args[0];
-
         File inputFile = new File(input);
-        BufferedReader br = null;
 
-
-        try
+        try(BufferedReader reader = Files.newBufferedReader(Paths.get(input), StandardCharsets.UTF_8))
         {
-            br = new BufferedReader(new FileReader(inputFile));
-            String st = null;
+            Parser parser = new Parser(reader);
 
-            while ((st = br.readLine()) != null)
-            {
-                System.out.println(st);
+            Launcher scenario = new Launcher(parser.getFlyables(), parser.getFactory(), parser.getTower(), parser.getChanges());
+            scenario.launchScenario();
+
+            if (reader != null) {
+                reader.close();
             }
         }
-        catch (FileNotFoundException e) {
+        catch (FileNotFoundException e)
+        {
             e.printStackTrace();
         }
         catch (IOException e) {
@@ -45,24 +45,20 @@ public class Main {
         }
         finally
         {
-            try {
-                if (br != null) {
-                    br.close();
-                }
-            } catch (IOException e) {
-            }
+            System.out.println(">>>>> finally >>>>>>>>>>>>>>>" );
+
+        }
+        ////// writing a result
+        try {
+            FileWriter fileWriter = new FileWriter("randomResult");
+            PrintWriter printWriter = new PrintWriter(fileWriter);
+            printWriter.print(Result.resultBuilder.toString());
+            printWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
-
-       // FileReader fr = new FileReader;
-
-
-       // BufferedReader br = new BufferedReader(new FileReader(input));
-
-//        String st;
-//        while ((st = br.readLine()) != null)
-//
-
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.." + Result.resultBuilder.toString());
         System.out.println("hello from simulator again");
     }
 }

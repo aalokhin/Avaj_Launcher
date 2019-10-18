@@ -3,7 +3,8 @@ package defPack;
 /**
  * Created by aalokhin on 2/2/19.
  */
-public class Coordinates {
+public class Coordinates
+{
     private int longitude;
     private int latitude;
     private int height;
@@ -14,6 +15,7 @@ public class Coordinates {
         this.latitude = latitude;
         this.height = height;
     }
+
     public int getLongitude()
     {
         return this.longitude;
@@ -25,5 +27,12 @@ public class Coordinates {
     public int getHeight()
     {
         return this.height;
+    }
+
+    public void setNewCoordinates(int longitude, int latitude, int height)
+    {
+        this.longitude = longitude;
+        this.latitude = latitude;
+        this.height = height;
     }
 }
