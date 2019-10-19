@@ -11,7 +11,6 @@ public class Baloon extends Aircraft implements Flyable
     protected Baloon(String name, Coordinates coordinates)
     {
         super(name, coordinates);
-       // System.out.println("this is new baloon " + name + " " + coordinates.getLongitude() + " " + coordinates.getLatitude() +" " + coordinates.getHeight() );
     }
 
     public void updateConditions (){

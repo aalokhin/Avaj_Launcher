@@ -10,41 +10,67 @@ public class Helicopter extends Aircraft implements Flyable
     protected Helicopter(String name, Coordinates coordinates)
     {
         super(name, coordinates);
-       // System.out.println("this is new helicopter " + name + " " + coordinates.getLongitude() + " " + coordinates.getLatitude() +" " + coordinates.getHeight() );
     }
+
     public void updateConditions()
     {
-        String weather= this.weatherTower.getWeather(this.coordinates);
+        String weather = this.weatherTower.getWeather(this.coordinates);
+        String message;
+        int longt = 0;
+        int lat = 0;
+        int height = 0;
+
         if(weather == "SNOW") {
-            this.coordinates.setNewCoordinates(this.coordinates.getLongitude(), this.coordinates.getLatitude(), this.coordinates.getHeight() - 12);
-            System.out.println("Helicoopter: can't bear it. too much snow.");
-            Result.resultBuilder.append("Helicoopter: can't bear it. too much snow.\n");
+            longt = this.coordinates.getLongitude();
+            lat = this.coordinates.getLatitude();
+            height = this.coordinates.getHeight() - 12;
+            message = "Helicoopter#" + this.name + "(" + this.id + ")" + ": can't bear it. too much snow.\n";
+
         }
-        if(weather == "RAIN"){
-            this.coordinates.setNewCoordinates(this.coordinates.getLongitude() + 5, this.coordinates.getLatitude(), this.coordinates.getHeight());
-            System.out.println("Helicoopter: Singing in the rain.");
-            Result.resultBuilder.append("Helicoopter: Singing in the rain.\n");
+        else if(weather == "RAIN"){
+            longt = this.coordinates.getLongitude() + 5;
+            lat = this.coordinates.getLatitude();
+            height = this.coordinates.getHeight();
+            message = "Helicoopter#" + this.name + "(" + this.id + ")" + ": Singing in the rain.\n";
         }
-        if(weather == "FOG")
+        else if(weather == "FOG")
         {
-            this.coordinates.setNewCoordinates(this.coordinates.getLongitude() + 1, this.coordinates.getLatitude(), this.coordinates.getHeight() + 2);
-            System.out.println("Helicoopter: Fog? Whatever.");
-            Result.resultBuilder.append("Helicoopter: Fog? Whatever.\n");
+            longt = this.coordinates.getLongitude() + 1;
+            lat = this.coordinates.getLatitude();
+            height = this.coordinates.getHeight() + 2;
+            message = "Helicoopter#" + this.name + "(" + this.id + ")" + ": Fog? Whatever.\n";
+
         }
         else //SUN
         {
-            this.coordinates.setNewCoordinates(this.coordinates.getLongitude() + 10, this.coordinates.getLatitude(), this.coordinates.getHeight() + 2);
-            System.out.println("Helicoopter: Sun is good.");
-            Result.resultBuilder.append("Helicoopter: Sun is good.\n");
+            longt = this.coordinates.getLongitude() + 10;
+            lat = this.coordinates.getLatitude();
+            height = this.coordinates.getHeight() + 2;
+            message = "Helicoopter#" + this.name + "(" + this.id + ")" + ": Sun is good.\n";
         }
-//
-//        if (this.coordinates.getHeight() <= 0)
-//        {
-//            System.out.println("Helicoopter#" + this.name + "(" + id + ") landing.");
-//            this.weatherTower.unregister(this);
-//            System.out.println("Helicoopter#" + this.name + "(" + id + ") unregistered from weather tower.");
-//        }
+
+        System.out.println( "the longt before  is : =======> " + longt);
+        System.out.println( "the lat  before is : =======> " + lat);
+        System.out.println( "the height  before is : =======> " + height);
+
+        this.coordinates.setNewCoordinates(longt, lat, height);
+
+        System.out.println( "the longt after  is : =======> " +  this.coordinates.getLongitude());
+        System.out.println( "the lat  after is : =======> " +  this.coordinates.getLatitude());
+        System.out.println( "the height  after is : =======> " +  this.coordinates.getHeight());
+
+        if (this.coordinates.getHeight() <= 0)
+        {
+            message = "Helicoopter#" + this.name + "(" + id + ") landing.\n";
+            this.weatherTower.unregister(this);
+            message += "Helicoopter#" + this.name + "(" + id + ") unregistered from weather tower.\n";
+        }
+
+        System.out.println(message);
+        Result.resultBuilder.append(message);
+
     }
+
     public void registerTower(WeatherTower weatherTower)
     {
         this.weatherTower = weatherTower;
@@ -59,3 +85,6 @@ public class Helicopter extends Aircraft implements Flyable
 //        ◦ RAIN - Longitude increases with 5
 //        ◦ FOG - Longitude increases with 1
 //        ◦ SNOW - Height decreases with 12
+
+// If an aircraft needs to pass the upper limit height it remains at 100.
+//If an aircraft reaches height 0 or needs to go below it, the aircraft lands, unregisters from the weather tower and logs its current coordinates.

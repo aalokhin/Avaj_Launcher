@@ -58,7 +58,7 @@ public class Main {
             e.printStackTrace();
         }
 
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.." + Result.resultBuilder.toString());
+      //  System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.." + Result.resultBuilder.toString());
         System.out.println("hello from simulator again");
     }
 }

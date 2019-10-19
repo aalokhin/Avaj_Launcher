@@ -12,7 +12,6 @@ public class Aircraft {
         this.name = name;
         this.coordinates = coordinates;
         this.id = nextId();
-
     }
 
     private long nextId()
@@ -21,6 +20,8 @@ public class Aircraft {
         return (idCounter);
     }
 
-    public long getId(){return(id); }
+    public long getId(){
+        return(id);
+    }
 }
 

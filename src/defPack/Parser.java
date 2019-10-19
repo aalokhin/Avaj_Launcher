@@ -44,7 +44,6 @@ public class Parser {
 
         try {
             while ((line = reader.readLine()) != null) {
-                //System.out.println(line);
                 if (line.isEmpty()) {
                     System.out.println("Error: first line of scenario file must be an integer.");
                     continue;
@@ -52,6 +51,7 @@ public class Parser {
                 if (line != null && !line.isEmpty() && i == 0) {
                     try {
                         this.changes = Integer.parseInt(line);
+                        System.out.println("cchchchchchchanges: ====> " + this.changes);
                         i++;
                     } catch (NumberFormatException nfe) {
                         System.out.println("Error: first line of scenario file must be an integer.");

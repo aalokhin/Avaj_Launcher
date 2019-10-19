@@ -7,12 +7,6 @@ public class WeatherTower extends Tower
 {
     private WeatherProvider provider;
 
-//    public WeatherTower(provider)
-//    {
-//        this.provider = provider;
-//
-//    }
-
     public String getWeather(Coordinates coordinates)
     {
         WeatherProvider weatherGetter = provider.getProvider();

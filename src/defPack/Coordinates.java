@@ -13,7 +13,7 @@ public class Coordinates
     {
         this.longitude = longitude;
         this.latitude = latitude;
-        this.height = height;
+        this.height = (height >= 100 ? 100 : (height <= 0 ? 0 : height));
     }
 
     public int getLongitude()
@@ -31,8 +31,9 @@ public class Coordinates
 
     public void setNewCoordinates(int longitude, int latitude, int height)
     {
+        //System.out.println("incoming height " + height);
         this.longitude = longitude;
         this.latitude = latitude;
-        this.height = height;
+        this.height = (height >= 100 ? 100 : (height <= 0 ? 0 : height));
     }
 }
