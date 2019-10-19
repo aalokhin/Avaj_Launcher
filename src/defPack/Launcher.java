@@ -32,8 +32,6 @@ public class Launcher
 
 
         }
-
-
         System.out.println("Ended with: \n  i == " + i + "  \nchanges : " + changes);
 
     }

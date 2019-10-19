@@ -20,7 +20,6 @@ public class Main {
             System.exit(1);
             return ;
         }
-// *************************************************** reading file *******************
 
         String input = args[0];
         File inputFile = new File(input);

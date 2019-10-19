@@ -15,13 +15,13 @@ public class Tower {
             return;
 
         aircrafts.add(flyable);
-
+        Result.resultBuilder.append("Tower says: ");
 
     }
     public void unregister(Flyable flyable)
     {
         aircrafts.remove(flyable);
-
+        Result.resultBuilder.append("Tower says: ");
 
     }
 
@@ -33,6 +33,7 @@ public class Tower {
             aircrafts.get(i).updateConditions();
         }
 
+//concurrent modification exception
 //        for (Flyable aircraft: this.aircrafts)
 //        {
 //            aircraft.updateConditions();

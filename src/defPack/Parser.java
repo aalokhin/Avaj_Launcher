@@ -17,7 +17,6 @@ public class Parser {
         this.tower = new WeatherTower();
         this.flyables = new ArrayList<Flyable>();
         this.changes = 0;
-
         extractObjects();
     }
 

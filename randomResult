@@ -1,153 +1,158 @@
-Baloon#B1(1) registered to weather tower.
-Baloon#B2(2) registered to weather tower.
-JetPlane J1(3) registered to weather tower.
-Helicopter#H1(4) registered to weather tower.
-Helicopter#H2(5) registered to weather tower.
-Helicopter#H3(6) registered to weather tower.
-Baloon#B3(7) registered to weather tower.
-JetPlane J2(8) registered to weather tower.
-Helicopter#H4(9) registered to weather tower.
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Baloon#B2(2) registered to weather tower.
+Tower says: JetPlane J1(3) registered to weather tower.
+Tower says: Helicopter#H1(4) registered to weather tower.
+Tower says: Helicopter#H2(5) registered to weather tower.
+Tower says: Helicopter#H3(6) registered to weather tower.
+Tower says: Baloon#B3(7) registered to weather tower.
+Tower says: JetPlane J2(8) registered to weather tower.
+Tower says: Helicopter#H4(9) registered to weather tower.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Fog? Whatever.\nHelicoopter#H3(6) : Can't bear it. too much snow.
 JetPlane: I am likely to end up buried with snow.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H1(4): can't bear it. too much snow.
-Helicoopter#H2(5): can't bear it. too much snow.
-Helicoopter#H3(6): Sun is good.
+Helicoopter#H4(9) : Singing in the rain.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Singing in the rain.
+Helicoopter#H3(6) : Fog? Whatever.\nJetPlane: I am likely to end up buried with snow.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Sun is good.
 JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H4(9): Sun is good.
-JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H1(4) landing.
-Helicoopter#H1(4) unregistered from weather tower.
-Helicoopter#H3(6): Singing in the rain.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): can't bear it. too much snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Singing in the rain.
-Helicoopter#H3(6): can't bear it. too much snow.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Fog? Whatever.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Sun is good.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): can't bear it. too much snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Fog? Whatever.
-JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H4(9): can't bear it. too much snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): can't bear it. too much snow.
-Helicoopter#H3(6): can't bear it. too much snow.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Singing in the rain.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Singing in the rain.
+Helicoopter#H1(4) : Fog? Whatever.\nHelicoopter#H2(5) : Sun is good.
+Helicoopter#H3(6) : Can't bear it. too much snow.
 JetPlane: I want no flying, I want crying.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Sun is good.
+Helicoopter#H4(9) : Can't bear it. too much snow.
 JetPlane: I want no flying, I want crying.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): can't bear it. too much snow.
-Helicoopter#H3(6): can't bear it. too much snow.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Sun is good.
+Helicoopter#H3(6) : Fog? Whatever.\nJetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H4(9) : Can't bear it. too much snow.
+JetPlane: I want no flying, I want crying.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): can't bear it. too much snow.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Sun is good.
+Helicoopter#H3(6) : Can't bear it. too much snow.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Fog? Whatever.
-Helicoopter#H3(6): can't bear it. too much snow.
+Helicoopter#H4(9) : Can't bear it. too much snow.
 JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H4(9): Fog? Whatever.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Fog? Whatever.\nHelicoopter#H3(6) : Fog? Whatever.\nJetPlane: I am likely to end up buried with snow.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Fog? Whatever.\nJetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Fog? Whatever.\nHelicoopter#H3(6) : Singing in the rain.
 JetPlane: I want no flying, I want crying.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Fog? Whatever.
-Helicoopter#H3(6): Singing in the rain.
+Helicoopter#H4(9) : Can't bear it. too much snow.
+JetPlane: I am likely to end up buried with snow.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Fog? Whatever.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Fog? Whatever.\nHelicoopter#H3(6) : Can't bear it. too much snow.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Singing in the rain.
+JetPlane: I want no flying, I want crying.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Fog? Whatever.\nHelicoopter#H2(5) : Sun is good.
+Helicoopter#H3(6) : Sun is good.
+JetPlane: I want no flying, I want crying.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Can't bear it. too much snow.
 JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H2(5): Fog? Whatever.
-Helicoopter#H3(6): Singing in the rain.
+Helicoopter#H1(4) : Singing in the rain.
+Helicoopter#H2(5) : Singing in the rain.
+Helicoopter#H3(6) : Sun is good.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Sun is good.
 JetPlane: I am likely to end up buried with snow.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Fog? Whatever.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Can't bear it. too much snow.
+Helicoopter#H3(6) : Sun is good.
 JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Fog? Whatever.
-JetPlane: I want no flying, I want crying.
+Helicoopter#H4(9) : Sun is good.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): can't bear it. too much snow.
-JetPlane: I want no flying, I want crying.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Fog? Whatever.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Sun is good.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): can't bear it. too much snow.
-Helicoopter#H3(6): Sun is good.
-JetPlane: I want no flying, I want crying.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Singing in the rain.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Sun is good.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Sun is good.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Fog? Whatever.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9): Sun is good.
-JetPlane: I want no flying, I want crying.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Fog? Whatever.
-JetPlane: I want no flying, I want crying.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H4(9) landing.
-Helicoopter#H4(9) unregistered from weather tower.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Fog? Whatever.\nHelicoopter#H3(6) : Singing in the rain.
 JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Fog? Whatever.
+Helicoopter#H4(9) : Can't bear it. too much snow.
+JetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Fog? Whatever.\nHelicoopter#H3(6) : Fog? Whatever.\nJetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H4(9) : Singing in the rain.
+JetPlane: I am likely to end up buried with snow.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Sun is good.
+Helicoopter#H3(6) : Sun is good.
 JetPlane: I want no flying, I want crying.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H2(5): Fog? Whatever.
-Helicoopter#H3(6): Sun is good.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-JetPlane: Here we go, Fog, again. Latitude crawls up.
-Helicoopter#H2(5): Fog? Whatever.
-Helicoopter#H3(6): Fog? Whatever.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Singing in the rain.
 JetPlane: I want no flying, I want crying.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Singing in the rain.
-Helicoopter#H3(6): Fog? Whatever.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): Fog? Whatever.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Fog? Whatever.
-Helicoopter#H3(6): can't bear it. too much snow.
-JetPlane: I am likely to end up buried with snow.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Fog? Whatever.
-Helicoopter#H3(6): Sun is good.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Singing in the rain.
+Helicoopter#H3(6) : Can't bear it. too much snow.
 JetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H4(9) : Fog? Whatever.\nJetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Fog? Whatever.\nHelicoopter#H2(5) : Sun is good.
+Helicoopter#H3(6) : Can't bear it. too much snow.
+JetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H4(9) : Fog? Whatever.\nJetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Can't bear it. too much snow.
+Helicoopter#H3(6) : Sun is good.
+JetPlane: I am likely to end up buried with snow.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
-Helicoopter#H2(5): Sun is good.
-Helicoopter#H3(6): can't bear it. too much snow.
+Helicoopter#H4(9) : Fog? Whatever.\nJetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Singing in the rain.
+Helicoopter#H3(6) : Singing in the rain.
+JetPlane: I am likely to end up buried with snow.
 JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Singing in the rain.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Singing in the rain.
+Helicoopter#H2(5) : Sun is good.
+Helicoopter#H3(6) : Can't bear it. too much snow.
+JetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H4(9) : Can't bear it. too much snow.
+JetPlane: I want no flying, I want crying.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Singing in the rain.
+Helicoopter#H2(5) : Fog? Whatever.\nHelicoopter#H3(6) : Sun is good.
+JetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H4(9) : Sun is good.
+JetPlane: I want no flying, I want crying.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Can't bear it. too much snow.
+Helicoopter#H3(6) : Can't bear it. too much snow.
+JetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H4(9) : Fog? Whatever.\nJetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Sun is good.
+Helicoopter#H3(6) : Sun is good.
+JetPlane: I want no flying, I want crying.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Singing in the rain.
+JetPlane: I want no flying, I want crying.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H1(4) : Singing in the rain.
+Helicoopter#H2(5) : Can't bear it. too much snow.
+Helicoopter#H3(6) : Fog? Whatever.\nJetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Sun is good.
+JetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H1(4) : Can't bear it. too much snow.
+Helicoopter#H2(5) : Fog? Whatever.\nHelicoopter#H3(6) : Can't bear it. too much snow.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Singing in the rain.
+JetPlane: Here we go, Fog, again. Latitude crawls up.
+Helicoopter#H1(4) : Sun is good.
+Helicoopter#H2(5) : Singing in the rain.
+Helicoopter#H3(6) : Fog? Whatever.\nJetPlane: I want no flying, I want crying.
+JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.
+Helicoopter#H4(9) : Sun is good.

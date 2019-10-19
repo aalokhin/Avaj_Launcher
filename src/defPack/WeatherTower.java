@@ -7,14 +7,14 @@ public class WeatherTower extends Tower
 {
     private WeatherProvider provider;
 
-    public String getWeather(Coordinates coordinates)
-    {
+    public String getWeather(Coordinates coordinates) {
         WeatherProvider weatherGetter = provider.getProvider();
-        return (weatherGetter.getCurrentWeather(coordinates));
+        String weather = weatherGetter.getCurrentWeather(coordinates);
+        return (weather);
 
     }
-    void changeWeather()
-    {
+
+    void changeWeather() {
         super.conditionsChanged();
     }
 

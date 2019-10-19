@@ -61,7 +61,7 @@ public class JetPlane extends Aircraft implements Flyable
     }
 }
 //
-//SUN - Latitude increases with 10, Height increases with 2
+//          SUN - Latitude increases with 10, Height increases with 2
 //        ◦ RAIN - Latitude increases with 5
 //        ◦ FOG - Latitude increases with 1
 //        ◦ SNOW - Height decreases with 7
