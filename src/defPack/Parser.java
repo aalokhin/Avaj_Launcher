@@ -50,7 +50,6 @@ public class Parser {
                 if (line != null && !line.isEmpty() && i == 0) {
                     try {
                         this.changes = Integer.parseInt(line);
-                        System.out.println("cchchchchchchanges: ====> " + this.changes);
                         i++;
                     } catch (NumberFormatException nfe) {
                         System.out.println("Error: first line of scenario file must be an integer.");
@@ -63,25 +62,27 @@ public class Parser {
                         System.exit(1);
                         return;
                     } else {
-
                         try {
-                            String aircraftType = parse[0].toLowerCase();
-                            String name = parse[1];
-                            int longitude = Integer.parseInt(parse[2]);
-                            int latitude = Integer.parseInt(parse[3]);
-                            int height = Integer.parseInt(parse[4]);
-                            //System.out.println("type : " + aircraftType + " name: " + name + " a " + a + " b " + b + " c "+ c);
-                            flyables.add(factory.newAircraft(aircraftType, name, longitude, latitude, height));
-                        } catch (NumberFormatException nfe) {
-                            System.out.println("Error on line " + i + ": coordinates integers.");
-                            return;
-                        } catch (Exception ex) {
-                            System.out.println("Error: I don't know what : " + ex.getLocalizedMessage());
-                            return;
-                        }
+                                String aircraftType = parse[0].toLowerCase();
+                                String name = parse[1];
+                                int longitude = Integer.parseInt(parse[2]);
+                                int latitude = Integer.parseInt(parse[3]);
+                                int height = Integer.parseInt(parse[4]);
+                                Flyable newFLyable = factory.newAircraft(aircraftType, name, longitude, latitude, height);
+                                if (newFLyable != null) {
+                                    flyables.add(newFLyable);
+                                } else {
+                                    System.out.println("Error on line " + i + ": The aircraft \"" + aircraftType + "\" could'n be created.");
+                                }
+                            } catch (NumberFormatException nfe) {
+                                System.out.println("Error on line " + i + ": coordinates should be valid numbers integers. No aircraft was created.");
+                                return;
+                            } catch (Exception ex) {
+                                System.out.println("Error: on line " + i + ":\n" + ex.getLocalizedMessage());
+                                return;
+                            }
                     }
                 }
-
                 i++;
             }
         }  catch (IOException e) {

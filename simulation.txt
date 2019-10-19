@@ -1,0 +1,152 @@
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Baloon#B2(2) registered to weather tower.
+Tower says: JetPlane#J1(3) registered to weather tower.
+Tower says: Helicoopter#H1(4) registered to weather tower.
+Tower says: Helicoopter#H2(5) registered to weather tower.
+Tower says: Helicoopter#H3(6) registered to weather tower.
+Tower says: Baloon#B3(7) registered to weather tower.
+Tower says: JetPlane#J2(8) registered to weather tower.
+Tower says: Helicoopter#H4(9) registered to weather tower.
+Baloon#B1(1) : They paid for a view and pictures. Now they will see nothing.
+Baloon#B2(2) : I am ready to freeze to death. Death of my passengers.
+JetPlane#J1(3) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H1(4) : Thrill is gone and rain is not. It's unfair...
+Helicoopter#H2(5) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Helicoopter#H3(6) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Baloon#B3(7) : Rain is good. And lightning is even better. Scary and epic and we'll all die here.
+JetPlane#J2(8) : I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW
+Helicoopter#H4(9) : Snow, no way. It's global warming, snow should seize to exist.
+Baloon#B1(1) : I am ready to freeze to death. Death of my passengers.
+Baloon#B2(2) : They paid for a view and pictures. Now they will see nothing.
+JetPlane#J1(3) : I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW
+Helicoopter#H1(4) : Bloody sun burns my eyes out but I'm ascending and going higher.
+Helicoopter#H2(5) : Snow, no way. It's global warming, snow should seize to exist.
+Helicoopter#H3(6) : Snow, no way. It's global warming, snow should seize to exist.
+Baloon#B3(7) : Guess who gooooes up-up-up!
+JetPlane#J2(8) : Sun is awesome. But I'm awesome even without it.
+Helicoopter#H4(9) : Snow, no way. It's global warming, snow should seize to exist.
+Baloon#B1(1) : Guess who gooooes up-up-up!
+Baloon#B2(2) : Guess who gooooes up-up-up!
+JetPlane#J1(3) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H1(4) : Thrill is gone and rain is not. It's unfair...
+Helicoopter#H2(5) : Thrill is gone and rain is not. It's unfair...
+Helicoopter#H3(6) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Baloon#B3(7) : Guess who gooooes up-up-up!
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H4(9) : Bloody sun burns my eyes out but I'm ascending and going higher.
+Baloon#B1(1) : They paid for a view and pictures. Now they will see nothing.
+Baloon#B2(2) : Guess who gooooes up-up-up!
+JetPlane#J1(3) : I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW
+Helicoopter#H1(4) : Snow, no way. It's global warming, snow should seize to exist.
+Helicoopter#H2(5) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Helicoopter#H3(6) : Snow, no way. It's global warming, snow should seize to exist.
+Baloon#B3(7) : I am ready to freeze to death. Death of my passengers.
+JetPlane#J2(8) : No fog can hide my awesomeness.
+Helicoopter#H4(9) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Tower says: Baloon#B1(1) is landing.
+Baloon#B1(1) unregistered from weather tower.
+JetPlane#J1(3) : No fog can hide my awesomeness.
+Tower says: Helicoopter#H1(4) is landing.
+Helicoopter#H1(4) unregistered from weather tower.
+Helicoopter#H3(6) : Bloody sun burns my eyes out but I'm ascending and going higher.
+Baloon#B3(7) : Rain is good. And lightning is even better. Scary and epic and we'll all die here.
+JetPlane#J2(8) : Sun is awesome. But I'm awesome even without it.
+Helicoopter#H4(9) : Thrill is gone and rain is not. It's unfair...
+Baloon#B2(2) : Guess who gooooes up-up-up!
+JetPlane#J1(3) : No fog can hide my awesomeness.
+Helicoopter#H2(5) : Snow, no way. It's global warming, snow should seize to exist.
+Helicoopter#H3(6) : Snow, no way. It's global warming, snow should seize to exist.
+Baloon#B3(7) : Rain is good. And lightning is even better. Scary and epic and we'll all die here.
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H4(9) : Bloody sun burns my eyes out but I'm ascending and going higher.
+Baloon#B2(2) : Guess who gooooes up-up-up!
+JetPlane#J1(3) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H2(5) : Bloody sun burns my eyes out but I'm ascending and going higher.
+Helicoopter#H3(6) : Snow, no way. It's global warming, snow should seize to exist.
+Baloon#B3(7) : Rain is good. And lightning is even better. Scary and epic and we'll all die here.
+JetPlane#J2(8) : No fog can hide my awesomeness.
+Helicoopter#H4(9) : Bloody sun burns my eyes out but I'm ascending and going higher.
+Baloon#B2(2) : They paid for a view and pictures. Now they will see nothing.
+JetPlane#J1(3) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H2(5) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Helicoopter#H3(6) : Bloody sun burns my eyes out but I'm ascending and going higher.
+Tower says: Baloon#B3(7) is landing.
+Baloon#B3(7) unregistered from weather tower.
+Helicoopter#H4(9) : Thrill is gone and rain is not. It's unfair...
+Baloon#B2(2) : Guess who gooooes up-up-up!
+JetPlane#J1(3) : I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW
+Helicoopter#H2(5) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Helicoopter#H3(6) : Snow, no way. It's global warming, snow should seize to exist.
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H4(9) : Thrill is gone and rain is not. It's unfair...
+Baloon#B2(2) : They paid for a view and pictures. Now they will see nothing.
+JetPlane#J1(3) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H2(5) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Helicoopter#H3(6) : Snow, no way. It's global warming, snow should seize to exist.
+JetPlane#J2(8) : I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW
+Helicoopter#H4(9) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Baloon#B2(2) : Guess who gooooes up-up-up!
+JetPlane#J1(3) : I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW
+Helicoopter#H2(5) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Helicoopter#H3(6) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H4(9) : Snow, no way. It's global warming, snow should seize to exist.
+Baloon#B2(2) : They paid for a view and pictures. Now they will see nothing.
+JetPlane#J1(3) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H2(5) : Snow, no way. It's global warming, snow should seize to exist.
+Helicoopter#H3(6) : Snow, no way. It's global warming, snow should seize to exist.
+JetPlane#J2(8) : No fog can hide my awesomeness.
+Helicoopter#H4(9) : Snow, no way. It's global warming, snow should seize to exist.
+Baloon#B2(2) : Rain is good. And lightning is even better. Scary and epic and we'll all die here.
+JetPlane#J1(3) : Sun is awesome. But I'm awesome even without it.
+Tower says: Helicoopter#H2(5) is landing.
+Helicoopter#H2(5) unregistered from weather tower.
+JetPlane#J2(8) : No fog can hide my awesomeness.
+Helicoopter#H4(9) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Baloon#B2(2) : Guess who gooooes up-up-up!
+JetPlane#J1(3) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H3(6) : Thrill is gone and rain is not. It's unfair...
+JetPlane#J2(8) : No fog can hide my awesomeness.
+Helicoopter#H4(9) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Baloon#B2(2) : They paid for a view and pictures. Now they will see nothing.
+JetPlane#J1(3) : No fog can hide my awesomeness.
+Helicoopter#H3(6) : Thrill is gone and rain is not. It's unfair...
+JetPlane#J2(8) : Sun is awesome. But I'm awesome even without it.
+Helicoopter#H4(9) : Thrill is gone and rain is not. It's unfair...
+Baloon#B2(2) : They paid for a view and pictures. Now they will see nothing.
+JetPlane#J1(3) : Jetplane doesn't notice rain, it just flies by.
+Helicoopter#H3(6) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+JetPlane#J2(8) : Sun is awesome. But I'm awesome even without it.
+Helicoopter#H4(9) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Baloon#B2(2) : Rain is good. And lightning is even better. Scary and epic and we'll all die here.
+JetPlane#J1(3) : No fog can hide my awesomeness.
+Helicoopter#H3(6) : Snow, no way. It's global warming, snow should seize to exist.
+JetPlane#J2(8) : No fog can hide my awesomeness.
+Helicoopter#H4(9) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+Baloon#B2(2) : Rain is good. And lightning is even better. Scary and epic and we'll all die here.
+Tower says: JetPlane#J1(3) is landing.
+JetPlane#J1(3) unregistered from weather tower.
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Tower says: Helicoopter#H4(9) is landing.
+Helicoopter#H4(9) unregistered from weather tower.
+Baloon#B2(2) : Guess who gooooes up-up-up!
+Helicoopter#H3(6) : Bloody sun burns my eyes out but I'm ascending and going higher.
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Baloon#B2(2) : I am ready to freeze to death. Death of my passengers.
+Helicoopter#H3(6) : Thrill is gone and rain is not. It's unfair...
+JetPlane#J2(8) : I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW
+Baloon#B2(2) : Guess who gooooes up-up-up!
+Helicoopter#H3(6) : Thrill is gone and rain is not. It's unfair...
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Baloon#B2(2) : They paid for a view and pictures. Now they will see nothing.
+Helicoopter#H3(6) : Bloody sun burns my eyes out but I'm ascending and going higher.
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Baloon#B2(2) : They paid for a view and pictures. Now they will see nothing.
+Helicoopter#H3(6) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Baloon#B2(2) : Guess who gooooes up-up-up!
+Helicoopter#H3(6) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+JetPlane#J2(8) : Jetplane doesn't notice rain, it just flies by.
+Baloon#B2(2) : I am ready to freeze to death. Death of my passengers.
+Helicoopter#H3(6) : Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.
+JetPlane#J2(8) : I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW

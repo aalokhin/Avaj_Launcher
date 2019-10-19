@@ -18,23 +18,25 @@ public class Helicopter extends Aircraft implements Flyable
     {
         String weather = this.weatherTower.getWeather(this.coordinates);
         HashMap<String, WeatherUpdateResult> weatherUpdateResult = new HashMap<String, WeatherUpdateResult>(){{
-            put("SUN", new WeatherUpdateResult(10, 0, 2, "Can't bear it. too much snow.\n"));
-            put("SNOW", new WeatherUpdateResult(0, 0, -12, "Sun is good.\n"));
-            put("RAIN", new WeatherUpdateResult(5, 0, 0, "Singing in the rain.\n"));
-            put("FOG", new WeatherUpdateResult(1, 0, 0, "Fog? Whatever.\\n"));
+            put("SUN", new WeatherUpdateResult(10, 0, 2, "Bloody sun burns my eyes out but I'm ascending and going higher.\n"));
+            put("SNOW", new WeatherUpdateResult(0, 0, -12, "Snow, no way. It's global warming, snow should seize to exist.\n"));
+            put("RAIN", new WeatherUpdateResult(5, 0, 0, "Thrill is gone and rain is not. It's unfair...\n"));
+            put("FOG", new WeatherUpdateResult(1, 0, 0, "Fogggg... I feel like I'm British. Couple more miles and I'll start making black jokes noone understands.\n"));
         }};
+
         String message =  "Helicoopter#" + this.name + "(" + this.id + ") : " + weatherUpdateResult.get(weather).getMessage();
-        int longt = this.coordinates.getLongitude() + weatherUpdateResult.get(weather).addLongitude;
-        int lat = this.coordinates.getLatitude() + weatherUpdateResult.get(weather).addLongitude;
-        int height = this.coordinates.getHeight() + weatherUpdateResult.get(weather).addLongitude;
-        this.coordinates.setNewCoordinates(longt, lat, height);
-        if (this.coordinates.getHeight() <= 0)
+        int longt = this.coordinates.getLongitude() + weatherUpdateResult.get(weather).getAddLongitude();
+        int lat = this.coordinates.getLatitude() + weatherUpdateResult.get(weather).getAddLatitude();
+        int height = this.coordinates.getHeight() + weatherUpdateResult.get(weather).getAddHeight();
+        if (height <= 0)
         {
-            message = "Helicoopter#" + this.name + "(" + id + ") landing.\n";
+            message = "Helicoopter#" + this.name + "(" + id + ") is landing.\n";
             this.weatherTower.unregister(this);
             message += "Helicoopter#" + this.name + "(" + id + ") unregistered from weather tower.\n";
         }
-        System.out.println(message);
+        else {
+            this.coordinates.setNewCoordinates(longt, lat, height);
+        }
         Result.resultBuilder.append(message);
 
     }
@@ -43,12 +45,7 @@ public class Helicopter extends Aircraft implements Flyable
     {
         this.weatherTower = weatherTower;
         this.weatherTower.register(this);
-        System.out.println("Helicopter#" + this.name + "(" + this.id + ")" + " registered to weather tower.");
-        Result.resultBuilder.append("Helicopter#" + this.name + "(" + this.id + ")" + " registered to weather tower.\n");
+        String message = "Helicoopter#" + this.name + "(" + this.id + ")" + " registered to weather tower.\n";
+        Result.resultBuilder.append(message);
     }
 }
-
-
-
-// If an aircraft needs to pass the upper limit height it remains at 100.
-//If an aircraft reaches height 0 or needs to go below it, the aircraft lands, unregisters from the weather tower and logs its current coordinates.

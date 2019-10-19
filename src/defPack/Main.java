@@ -23,14 +23,11 @@ public class Main {
 
         String input = args[0];
         File inputFile = new File(input);
-
         try(BufferedReader reader = Files.newBufferedReader(Paths.get(input), StandardCharsets.UTF_8))
         {
             Parser parser = new Parser(reader);
-
             Launcher scenario = new Launcher(parser.getFlyables(), parser.getFactory(), parser.getTower(), parser.getChanges());
             scenario.launchScenario();
-
             if (reader != null) {
                 reader.close();
             }
@@ -44,20 +41,17 @@ public class Main {
         }
         finally
         {
-            System.out.println(">>>>> finally >>>>>>>>>>>>>>>" );
-
-        }
-        ////// writing a result
-        try {
-            FileWriter fileWriter = new FileWriter("randomResult");
-            PrintWriter printWriter = new PrintWriter(fileWriter);
-            printWriter.print(Result.resultBuilder.toString());
-            printWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+            try {
+                FileWriter fileWriter = new FileWriter("simulation.txt");
+                PrintWriter printWriter = new PrintWriter(fileWriter);
+                printWriter.print(Result.resultBuilder.toString());
+                printWriter.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            //System.out.println("The simulation has been finished. See the output in \"simulation.txt\"\n" + Result.resultBuilder.toString());
         }
 
-      //  System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.." + Result.resultBuilder.toString());
-        System.out.println("hello from simulator again");
+
     }
 }

@@ -19,21 +19,14 @@ public class Launcher
 
     public void launchScenario()
     {
-        for (Flyable flyable: this.flyables)
+        for (Flyable flyable : this.flyables)
         {
             flyable.registerTower(tower);
         }
-        System.out.println("here we gooo----------------------------------------------------------");
         int i = 0;
-        for ( i = 0; i < changes; i++)
-        {
+        for ( i = 0; i < changes; i++) {
             tower.changeWeather();
-            System.out.println("------------------------ change weather ----------------------------------");
-
-
         }
-        System.out.println("Ended with: \n  i == " + i + "  \nchanges : " + changes);
-
     }
 
 }

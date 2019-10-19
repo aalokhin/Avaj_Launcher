@@ -1,5 +1,7 @@
 package defPack;
 
+import java.util.HashMap;
+
 /**
  * Created by aalokhin on 2/2/19.
  */
@@ -7,63 +9,41 @@ public class JetPlane extends Aircraft implements Flyable
 {
     private WeatherTower weatherTower;
 
-    protected JetPlane(String name, Coordinates coordinates)
-    {
+    protected JetPlane(String name, Coordinates coordinates) {
         super(name, coordinates);
-       // System.out.println("this is new jet " + name + " " + coordinates.getLongitude() + " " + coordinates.getLatitude() +" " + coordinates.getHeight() );
     }
 
     public void registerTower(WeatherTower weatherTower)
     {
         this.weatherTower = weatherTower;
         this.weatherTower.register(this);
-        System.out.println("JetPlane " + this.name + "(" + this.id + ")" + " registered to weather tower.");
-        Result.resultBuilder.append("JetPlane " + this.name + "(" + this.id + ")" + " registered to weather tower.\n");
-
+        String message = "JetPlane#" + this.name + "(" + this.id + ")" + " registered to weather tower.\n";
+        Result.resultBuilder.append(message);
     }
 
 
     public void updateConditions()
     {
-        String weather= this.weatherTower.getWeather(this.coordinates);
-        if(weather == "SNOW") {
-            this.coordinates.setNewCoordinates(this.coordinates.getLongitude(), this.coordinates.getLatitude(), this.coordinates.getHeight() - 7);
-            System.out.println("JetPlane: I am likely to end up buried with snow.");
-            Result.resultBuilder.append("JetPlane: I am likely to end up buried with snow.\n");
+        String weather = this.weatherTower.getWeather(this.coordinates);
+        HashMap<String, WeatherUpdateResult> weatherUpdateResult = new HashMap<String, WeatherUpdateResult>(){{
+            put("SUN", new WeatherUpdateResult(0, 10, 2, "Sun is awesome. But I'm awesome even without it.\n"));
+            put("RAIN", new WeatherUpdateResult(0, 5, 0, "Jetplane doesn't notice rain, it just flies by.\n"));
+            put("FOG", new WeatherUpdateResult(0, 1, 0, "No fog can hide my awesomeness.\n"));
+            put("SNOW", new WeatherUpdateResult(0, 0, -7, "I'M A JET PLANE FUCKAS, I DON'T CARE ABOUT SNOW\n"));
 
-        }
-        if(weather == "RAIN"){
-            this.coordinates.setNewCoordinates(this.coordinates.getLongitude(), this.coordinates.getLatitude() + 5, this.coordinates.getHeight());
-            System.out.println("JetPlane: I want no flying, I want crying.");
-            Result.resultBuilder.append("JetPlane: I want no flying, I want crying.\n");
-        }
-        if(weather == "FOG")
-        {
-            this.coordinates.setNewCoordinates(this.coordinates.getLongitude(), this.coordinates.getLatitude() + 1, this.coordinates.getHeight());
-            System.out.println("JetPlane: Here we go, Fog, again. Latitude crawls up.");
-            Result.resultBuilder.append("JetPlane: Here we go, Fog, again. Latitude crawls up.\n");
-        }
-        else //SUN
-        {
-            this.coordinates.setNewCoordinates(this.coordinates.getLongitude(), this.coordinates.getLatitude() + 10, this.coordinates.getHeight() + 2);
-            System.out.println("JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.");
-            Result.resultBuilder.append("JetPlane: Hey-Hey! This vicious circle of life makes me wanna fly.\n");
-        }
-
-        if (this.coordinates.getHeight() <= 0)
-        {
-            System.out.println("JetPlane#" + this.name + "(" + id + ") landing.");
-            Result.resultBuilder.append("JetPlane#" + this.name + "(" + id + ") landing.\n");
+        }};
+        String message =  "JetPlane#" + this.name + "(" + this.id + ") : " + weatherUpdateResult.get(weather).getMessage();
+        int longt = this.coordinates.getLongitude() + weatherUpdateResult.get(weather).getAddLongitude();
+        int lat = this.coordinates.getLatitude() + weatherUpdateResult.get(weather).getAddLatitude();
+        int height = this.coordinates.getHeight() + weatherUpdateResult.get(weather).getAddHeight();
+        if (height <= 0) {
+            message = "JetPlane#" + this.name + "(" + id + ") is landing.\n";
             this.weatherTower.unregister(this);
-            System.out.println("JetPlane#" + this.name + "(" + id + ") unregistered from weather tower.\n");
-            Result.resultBuilder.append("JetPlane#" + this.name + "(" + id + ") unregistered from weather tower.\n");
+            message += "JetPlane#" + this.name + "(" + id + ") unregistered from weather tower.\n";
         }
+        else {
+            this.coordinates.setNewCoordinates(longt, lat, height);
+        }
+        Result.resultBuilder.append(message);
     }
 }
-//
-//          SUN - Latitude increases with 10, Height increases with 2
-//        ◦ RAIN - Latitude increases with 5
-//        ◦ FOG - Latitude increases with 1
-//        ◦ SNOW - Height decreases with 7
-//(int longitude, int latitude, int height)
-
